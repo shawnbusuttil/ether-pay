@@ -38,7 +38,7 @@ const TransactionCard = ({
                         <p className='text-white text-base'>From: {shortenAddress(addressFrom, 8)}</p>
                     </a>
                     <a href={`https://sepolia.etherscan.io/address/${addressTo}`} target='_blank' rel="noopener noreferrer">
-                        <p className='text-white text-base'>To: {shortenAddress(addressFrom, 8)}</p>
+                        <p className='text-white text-base'>To: {shortenAddress(addressTo, 8)}</p>
                     </a>
                     <p className='text-white text-base'>Amount: {amount} ETH</p>
 
